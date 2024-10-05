@@ -1,4 +1,37 @@
-<html>
-  <head></head>
-  <body></body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- thead -->
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Languages</th>
+          <th>Countries</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Ibrahim</td>
+          <td>Html</td>
+          <td>Palestine</td>
+        </tr>
+        <tr>
+          <!-- colspan => column -->
+          <td>Ibrahim</td>
+          <td>Css</td>
+          <td>Palestine</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
