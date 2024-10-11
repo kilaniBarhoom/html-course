@@ -6,11 +6,12 @@ to p tag
 .redColor {
   color: red;
 }
-
-p.redColor {
-  background-color: blue;
+.redColor {
+  color: rgb(255, 0, 0);
 }
-
-.center {
-  text-align: center;
+.redColor {
+  color: rgba(255, 0, 0, 1);
+}
+.redColor {
+  color: hsl(0, 30%, 20%);
 }
