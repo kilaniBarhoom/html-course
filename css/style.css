@@ -1,17 +1,8 @@
-/*add bg
-
-to p tag
-*/
-
 .redColor {
-  color: red;
-}
-.redColor {
-  color: rgb(255, 0, 0);
-}
-.redColor {
-  color: rgba(255, 0, 0, 1);
-}
-.redColor {
-  color: hsl(0, 30%, 20%);
+  font: bolder 3em italic small-caps;
+  line-height: 80px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-indent: 20px;
 }
