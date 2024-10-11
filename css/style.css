@@ -2,6 +2,15 @@
 
 to p tag
 */
-p {
+
+.redColor {
+  color: red;
+}
+
+p.redColor {
   background-color: blue;
+}
+
+.center {
+  text-align: center;
 }
