@@ -1,3 +1,9 @@
-li {
-  list-style-type: disc;
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: solid 5px red;
 }
