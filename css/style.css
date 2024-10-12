@@ -1,7 +1,11 @@
-.redColor {
-  /* border-style: solid;
-  border-width: 20px;
-  border-color: red; */
-  border: solid 20px red;
-  border-radius: 10px;
+.center {
+  border: solid 5px red;
+  border-style: solid dashed;
+  padding: 30px 15px 50px 5px;
+  margin: 20px 5px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
