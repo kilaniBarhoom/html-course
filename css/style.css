@@ -1,9 +1,36 @@
-table {
-  border-collapse: collapse;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-table,
-th,
-td {
-  border: solid 5px red;
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  margin: 0;
+  display: inline;
+
+  font-size: 1rem;
+}
+
+header,
+section {
+  padding: 10px;
+}
+
+header {
+  padding: 10px;
+  background-color: yellow;
+  border-style: solid;
+}
+
+ul {
+  display: inline;
+}
+
+li {
+  display: inline;
+  padding-right: 10px;
 }
