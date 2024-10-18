@@ -1,12 +1,5 @@
-button:hover {
-  color: blue;
-}
-
-button:active {
-  color: red;
-}
-
-input:focus {
-  color: green;
-  border: dashed 5px red;
+p {
+  border: solid 2px red;
+  height: 50px;
+  overflow-y: auto;
 }
