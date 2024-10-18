@@ -1,21 +1,11 @@
-span {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 div {
   border: solid 2px;
-  padding: 10px;
-  position: relative;
 }
 
-#s1 {
-  background-color: red;
-  z-index: 1;
-  top: 20px;
-  left: 20px;
+/* flexbox */
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-/* #s2 {
-  background-color: blue;
-} */
