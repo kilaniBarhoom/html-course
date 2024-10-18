@@ -1,11 +1,12 @@
-div {
-  padding: 10px;
-  border: solid 2px #000;
+button:hover {
+  color: blue;
 }
 
-span {
-  border: solid 2px red;
-  display: block;
-  width: fit-content;
-  margin: 0 auto;
+button:active {
+  color: red;
+}
+
+input:focus {
+  color: green;
+  border: dashed 5px red;
 }
